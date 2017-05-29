@@ -7,12 +7,13 @@
     </style>
   </head>
   <body>
-    <table border="2px">
+    <table border="3px solid" >
 
 <tr>
-  <td ><h4><a href="insertarequipo.php"> INSERTAR UN NUEVO EQUIPO</a></h4></td>
-  <td ><h4><a href="insertarjugador.php">INSERTAR UN NUEVO JUGADOR</a></h4></td>
-</tr>
+  <td><h3>   <a href="insertarequipo.php"> Insertar  equipo</a></h3></td>
+  <td> <h3><a href="insertarjugador.php">Insertar  jugador</a></h3></td>
+
+  </tr>
 
     </table>
 

@@ -28,7 +28,7 @@
             echo "<br>";
             echo "<a href='listaequipos.php'>Borrar registro.</a>";
         }else {
-          echo "Error en la actualización";
+          echo "Error durante la actualización";
         }
       }
      ?>

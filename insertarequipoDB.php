@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-    //Se comprueba que se han rellenado todos los campos
+    //comprobacion del formulario
     if (empty($_POST["nombre"])==false && empty($_POST["ciudad"])==false && empty($_POST["conferencia"])==false && empty($_POST["division"])==false) {
       //base de datos
       include 'equipo.php';
@@ -25,7 +25,7 @@
       echo "<br>";
       echo "<a href='listaequipos.php'>Borrar registro.</a>";
     }else {
-      echo "<a href='insertarequipo.php'> Rellena todos los campos posibles </a>";
+      echo "<a href='insertarequipo.php'> Rellena todos los campos </a>";
     }
      ?>
   </body>

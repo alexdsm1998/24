@@ -6,7 +6,7 @@ class db
   private $host="localhost";
   private $user="root";
   private $pass="root";
-  private $db_name="nba";
+  private $db_name="dbnba";
   //Conector
   private $conexion;
   //Propiedades para controlar errores

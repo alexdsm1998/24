@@ -13,9 +13,9 @@
 
       if ($borrar==true) {
        ?>
-       <p>Borrado exitoso</p>
-       <a style="color:green;"href="index.php">Volver a inicio</a>
-       <a style="color:red;"href="listaequipos.php"> Borrar otro registro</a>
+       <p>Borrado con exito</p>
+       <a href="index.php">Ir a inicio</a>
+       <a href="listaequipos.php"> Borrar otro registro</a>
        <?php
       }else {
         ?>

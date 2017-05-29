@@ -6,7 +6,7 @@
   </head>
   <body>
     <?php
-    //Se comprueba que se han rellenado todos los campos
+    //comprobacion del formulario
     if (empty($_POST['codigo'])==false && empty($_POST['nombre'])==false && empty($_POST['procedencia'])==false &&
         empty($_POST['altura'])==false && empty($_POST['peso'])==false && empty($_POST['posicion'])==false && empty($_POST['equipo'])==false) {
       include 'jugador.php';

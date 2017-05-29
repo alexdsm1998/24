@@ -11,7 +11,7 @@
       //Base de datos.
       include 'jugador.php';
       $jugador=new jugador();
-      //Llamamos a la funcion de actualizar jugador
+      //funcion de actualizar jugador
       $actualizarjug=$jugador->ActualizarJugador($_POST["codigo"],  $_POST["nombre"], $_POST["procedencia"], $_POST["altura"], $_POST["peso"], $_POST["posicion"], $_POST["equipo"]);
       //Devolver usuario actualizado
       if ($actualizarjug==true) {
@@ -31,7 +31,7 @@
         echo "<br>";
         echo "<a href='listajugadores.php'>Borrar registro.</a>";
     }else {
-      echo "Error en la actualizacion";
+      echo "Error durante la actualizacion";
     }}
      ?>
   </body>

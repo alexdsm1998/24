@@ -9,7 +9,7 @@
       include 'equipo.php';
       $equipo=new equipo();
       ?>
-      <table border="1px">
+      <table border="3px">
          <tr>
            <th >Nombre</th>
            <th >Ciudad</th>

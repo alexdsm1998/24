@@ -5,7 +5,7 @@
     <title>Lista Jugadores</title>
   </head>
   <body>
-    <table border="1px">
+    <table border="3px">
         <tr>
           <th >Codigo</th>
           <th >Nombre</th>
